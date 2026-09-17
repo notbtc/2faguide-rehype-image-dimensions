@@ -1,0 +1,54 @@
+{
+  "name": "2faguide-rehype-image-dimensions",
+  "version": "0.1.0",
+  "description": "rehype plugin that adds real width/height, loading and decoding to local markdown & MDX images at build time — zero dependencies, zero runtime JS. Extracted from the 2faguide.com build pipeline.",
+  "type": "module",
+  "main": "./src/index.js",
+  "module": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.js",
+      "default": "./src/index.js"
+    }
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "rehype",
+    "rehype-plugin",
+    "unified",
+    "hast",
+    "astro",
+    "mdx",
+    "markdown",
+    "image",
+    "dimensions",
+    "width",
+    "height",
+    "lazy-loading",
+    "cls",
+    "core-web-vitals"
+  ],
+  "author": "Free2FA",
+  "license": "MIT",
+  "homepage": "https://2faguide.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/notbtc/2faguide-rehype-image-dimensions.git"
+  },
+  "bugs": {
+    "url": "https://github.com/notbtc/2faguide-rehype-image-dimensions/issues"
+  }
+}
