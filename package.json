@@ -1,6 +1,6 @@
 {
   "name": "2faguide-rehype-image-dimensions",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "rehype plugin that adds real width/height, loading and decoding to local markdown & MDX images at build time — zero dependencies, zero runtime JS. Extracted from the 2faguide.com build pipeline.",
   "type": "module",
   "main": "./src/index.js",
